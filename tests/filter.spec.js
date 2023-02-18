@@ -1,8 +1,8 @@
 const {test, expect} = require('@playwright/test')
 const {LoginPage} = require('../pages/login-page')
-const {ProductsListPage} = require("../pages/products-list-page")
+const {ProductsListPage} = require('../pages/products-list-page')
 
-test('A user can filter product prices low high to high', async ({page, context}) => {
+test('A user can filter product prices low high to high', async ({page}) => {
     const loginPage = new LoginPage(page)
     const productsListPage = new ProductsListPage(page)
 

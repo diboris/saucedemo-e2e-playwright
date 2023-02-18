@@ -9,7 +9,7 @@ module.exports = {
     'plugin:playwright/playwright-test'
   ],
   'parserOptions': {
-    'ecmaVersion': 2017,
+    'ecmaVersion': 2020,
     'sourceType': 'module',
   },
   'rules': {
