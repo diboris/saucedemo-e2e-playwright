@@ -1,4 +1,4 @@
-## Saucedemo e2e tests [![pipeline status](https://github.com/diboris/saucedemo-e2e-playwright/actions/workflows/actions.yml/badge.svg)](https://github.com/diboris/saucedemo-e2e-playwright/actions)
+## Saucedemo e2e tests [![pipeline status](https://github.com/diboris/saucedemo-e2e-playwright/actions/workflows/actions.yaml/badge.svg)](https://github.com/diboris/saucedemo-e2e-playwright/actions)
 
 Automation tests with [Playwright](https://playwright.dev/) 
 
