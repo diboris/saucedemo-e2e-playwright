@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-e2e-playwright",
+  "private": "true",
+  "scripts": {
+    "test": "playwright test",
+    "debug": "playwright test --debug",
+    "lint": "eslint --ext .js .",
+    "reports": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "eslint-plugin-playwright": "^0.12.0",
+    "faker": "^5.5.3"
+  }
+}
