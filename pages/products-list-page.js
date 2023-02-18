@@ -31,7 +31,6 @@ exports.ProductsListPage = class ProductsListPage {
 
     async getAllProductsPrices() {
         const pricesWithCurrency = await this.productPrice.allTextContents()
-        // return pricesWithCurrency.map(priceWithCurrency => priceWithCurrency.substring(1))
         const prices = []
         for (let i = 0; i < pricesWithCurrency.length; i++) {
             const priceWithCurrency = pricesWithCurrency[i]
