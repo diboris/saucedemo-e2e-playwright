@@ -16,7 +16,7 @@ npm run test
 HTML reports are generated to **playwright-report** folder.
 [Built-in reports](https://playwright.dev/docs/test-reporters) is used for reporting.
 
-To trigger the e2e tests to run in GitHub actions open https://github.com/diboris/saucedemo-e2e-playwright/actions/workflows/actions.yml page and click the **Run workflow** dropdown and click the **Run workflow** button.
+To trigger the e2e tests to run in GitHub actions open https://github.com/diboris/saucedemo-e2e-playwright/actions/workflows/actions.yaml page and click the **Run workflow** dropdown and click the **Run workflow** button.
 
 ## Local execution
 
